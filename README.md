@@ -26,7 +26,7 @@ This is what it looks like depending on the setting:
 ## Blur:
 ***Note:*** *hovering over the card will unblur the image*
 
-![image](https://github.com/user-attachments/assets/d6eb5061-733f-4df8-95f3-b722b2cf0c9c)
+![image](https://github.com/user-attachments/assets/0772fac3-520a-48ab-a7bc-c19509b16170)
 
 ## Hide:
 ***Note:*** *hovering over the card will *NOT* show the image*
