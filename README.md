@@ -19,20 +19,21 @@ If the model contains nsfw in the model file name this will also cause the thumb
 
 A button has been added to the `Extra Networks` controls area to allow you to change between "Blur" "Hide" or "Show". Using these buttons will not permanently change the default setting. To do that you will need to update the default setting in the `Settings` tab.
 
-![image](https://github.com/user-attachments/assets/5b8d84eb-33eb-4183-9035-819ae91cc545)
+![menu-image](https://github.com/user-attachments/assets/5aeaba29-6ccf-48db-af7c-05d613f6d6a0)
 
 This is what it looks like depending on the setting:
 
 ## Blur:
 ***Note:*** *hovering over the card will unblur the image*
 
-![image](https://github.com/user-attachments/assets/9c1bb440-18c0-490a-8113-415302410ee7)
+![image](https://github.com/user-attachments/assets/46035dcf-98af-4e32-988e-44f312fd0382)
 
 ## Hide:
 ***Note:*** *hovering over the card will *NOT* show the image*
 
-![image](https://github.com/user-attachments/assets/5ca81257-68d5-4c29-bac5-f3f60199f790)
+![image](https://github.com/user-attachments/assets/db5166ec-d910-4abe-8aff-515800988728)
 
 ## Show:
 
-![image](https://github.com/user-attachments/assets/d86af94c-4cb8-4a6e-986c-0c75548b457e)
+![image](https://github.com/user-attachments/assets/aea567c3-7956-429c-8ce2-7040d7173817)
+
