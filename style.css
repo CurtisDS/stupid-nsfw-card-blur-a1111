@@ -13,12 +13,11 @@
 }
 
 .extra-network-control .extra-network-control--nsfw.nsfw-menu-button {
-	margin-right: 0.5rem;
+	margin-right: 1rem;
 }
 
 .extra-network-control .extra-network-control--nsfw.nsfw-menu-button:has(+ [modal-open="true"]) {
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
+    z-index: 101;
 }
 
 .extra-network-control .extra-network-control--nsfw.nsfw-menu-button:after {
@@ -82,16 +81,15 @@
 
 .nsfw-modal-div {
 	display: none;
-	padding: 0.15rem 0;
+	padding: 3rem 0.5rem 0.35rem;
 	position: absolute;
 	z-index: 100;
 	background: var(--panel-background-fill);
 	justify-content: center;
 	align-content: center;
 	border-radius: var(--radius-md);
-	top: calc(100% - 0.15rem);
-	border-top-left-radius: 0;
-	border-top-right-radius: 0;
+	top: calc(100% - 2.65rem);
+    left: -0.5rem;
 }
 
 .nsfw-modal-div-clear {

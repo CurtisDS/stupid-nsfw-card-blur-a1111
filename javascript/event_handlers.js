@@ -15,8 +15,13 @@ const nsfwh = {
 	extraNetworksControlNSFWModalOpenOnClick: (event) => {
 		let sibling = event.currentTarget.nextElementSibling;
 		if(sibling.hasAttribute("modal-open")) {
-			sibling.style.display = 'grid';
-			sibling.setAttribute("modal-open", "true");
+			if(sibling.getAttribute("modal-open") === "true") {
+				sibling.style.display = 'none';
+				sibling.setAttribute("modal-open", "false");
+			} else {
+				sibling.style.display = 'grid';
+				sibling.setAttribute("modal-open", "true");
+			}
 		}
 	},
 	extraNetworksControlNSFWModalCloseOnClick: (event) => {
