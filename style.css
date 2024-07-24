@@ -13,6 +13,7 @@
 }
 
 .extra-network-control .extra-network-control--nsfw.nsfw-menu-button {
+	margin-left: 0.25rem;
 	margin-right: 1rem;
 }
 
@@ -89,7 +90,7 @@
 	align-content: center;
 	border-radius: var(--radius-md);
 	top: calc(100% - 2.65rem);
-    left: -0.5rem;
+    left: -0.25rem;
 }
 
 .nsfw-modal-div-clear {
