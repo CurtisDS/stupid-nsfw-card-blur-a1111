@@ -19,7 +19,7 @@ If the model contains nsfw in the model file name this will also cause the thumb
 
 A button has been added to the `Extra Networks` controls area to allow you to change between "Blur" "Hide" or "Show". Using these buttons will not permanently change the default setting. To do that you will need to update the default setting in the `Settings` tab.
 
-![menu-image](https://github.com/user-attachments/assets/5aeaba29-6ccf-48db-af7c-05d613f6d6a0)
+![menu-image](https://github.com/user-attachments/assets/bea70cdd-ad8c-477d-93fd-035531d00477)
 
 This is what it looks like depending on the setting:
 
