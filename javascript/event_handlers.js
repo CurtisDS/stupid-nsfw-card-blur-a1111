@@ -133,7 +133,19 @@ const nsfwh = {
  * The callback receives no arguments.
  * If you register the callback after the options are available, it's just immediately called.
  */
-onOptionsAvailable(function() {
+if(typeof onOptionsAvailable === "function") {
+	onOptionsAvailable(initNSFWSettings);
+} else {
+	// Fallback if onOptionsAvailable isn't available
+	const checkInterval = setInterval(() => {
+		if (typeof opts !== "undefined" && Object.keys(opts).length > 0) {
+			clearInterval(checkInterval);
+			initNSFWSettings();
+		}
+	}, 100); // Check every 100 milliseconds
+}
+
+function initNSFWSettings() {
 	const defaultViewOption = opts["nsfw_card_blur_default"];
 
 	if(defaultViewOption === "Blur" || defaultViewOption === "Show" || defaultViewOption === "Hide") {
@@ -145,4 +157,4 @@ onOptionsAvailable(function() {
     if(!nsfwh.attributesAdded) {
 		nsfwh.setAttributes();
 	}
-});
+}
